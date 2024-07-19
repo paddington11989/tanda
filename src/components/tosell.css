@@ -1,0 +1,115 @@
+.tosell__wrapper{
+    padding:0px 0px 200px;
+}
+.tosell__wrapper-block{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap:24px;
+    grid-column-gap:20px;
+}
+
+.block-sell-item{
+    width:285px;
+}
+.sell-img{
+    background-color: #f5f5f5;
+    border-radius:16px;
+    padding:20px 32px;
+}
+.sell-context{
+    margin:16px 0px;
+}
+.sell-context-title{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+}
+.sell-context-text{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    color:#949494;
+    margin:8px 0px;
+}
+.sell-context-star{
+    display:flex;
+    align-items: center;
+    margin-bottom:8px;
+}
+.sell-context-mimitext{
+    color:#030303;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    margin-left:5px;
+}
+.sell-cost{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 600;
+}
+.tosell-btn{
+    padding:12px 0px;
+    width:100%;
+    border:none;
+    border-radius:16px;
+    background-color: #1E90FF;
+    color:#fff;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 16px;
+    cursor:pointer;
+}
+.tosell-title{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom:16px;
+}
+/* media */
+
+@media(max-width:1250px){
+    .tosell__wrapper-block{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width:940px){
+    .tosell__wrapper-block{
+        grid-template-columns: 1fr 1fr; 
+        padding-left:40px; 
+    }
+}
+@media(max-width:740px){
+    .tosell__wrapper-block{
+        grid-template-columns: 1fr 1fr; 
+        padding-left:20px; 
+    }
+}
+@media(max-width:680px){
+    .tosell__wrapper-block{
+        grid-template-columns: 1fr 1fr; 
+        padding-left:0; 
+    }
+}
+@media(max-width:670px){
+    .block-sell-item{
+        width:200px;
+    }
+    .sell-item-img{
+        width:135px;
+    }
+}
+@media(max-width:480px){
+    .block-sell-item{
+        width:167px;
+    }
+    .sell-img{
+        padding:8px 16px;
+    }
+}
+@media(max-width:400px){
+    .tosell-title{
+        font-size: 18px;
+    }
+}

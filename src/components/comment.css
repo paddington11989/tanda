@@ -1,0 +1,54 @@
+.comment__wrapper{
+    padding-bottom:100px;
+}
+.comment-title{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 600;
+    color:#000;
+    position: relative;
+    margin-bottom:16px;
+}
+.comment-title::after{
+    position: absolute;
+    content:'';
+    bottom:-4px;
+    left:0;
+    width:71px;
+    background-color: #b0b0b0;
+    border-radius: 100px;
+    height:2px;
+
+}
+.count-comment{
+    display:flex;
+    margin:16px 0px;
+}
+.comment-bold{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 600;
+    color:#000;
+    display:inline-block;
+    margin-right:4px;
+    
+}
+.comment-grey{
+    font-family: "Roboto";
+    font-size: 16px;
+    color:#999999;
+    display:inline-block;
+    margin-left:18px;
+}
+.slider-comment-btn{
+    background-color: #E9F4FF;
+    color:#1E90FF;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+    border-radius:16px;
+    padding:13px 50px;
+    border:none;
+    cursor:pointer;
+    margin-top:32px;
+}

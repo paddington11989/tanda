@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/header";
+import TopScreen from "./components/top-screen";
+import ApolloProviderComponent from "./apolo";
+import Comment from "./components/comment";
+import Tosell from "./components/tosell";
+import Footer from "./components/footer";
+
 
 function App() {
   return (
+     <ApolloProviderComponent>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <Header/>
+     <TopScreen/>
+     <Comment/>
+     <Tosell/>
+     <Footer/>
+      </div>
+    </ApolloProviderComponent>
   );
 }
 
