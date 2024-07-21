@@ -28,8 +28,8 @@ export default function Header(){
             </div>
             <div className="header-contacts">
                  <a href="#" className="header-cart searchIcon"><img src={searchIcon} alt="" /></a>
-                <a href="#" className="header-cart"><img src={profile} alt="" /> <p className="cart-text">Войти</p></a>
-                <a href="#" className="header-cart"><img src={shopping} alt="" /> <p className="cart-text">Корзина</p></a>
+                <a href="#" className="header-cart"><img src={profile} alt="" /> <p className="cart-nav-text">Войти</p></a>
+                <a href="#" className="header-cart"><img src={shopping} alt="" /> <p className="cart-nav-text">Корзина</p></a>
 
               
               <div className="header-cart burger-icon" onClick={toggleMenu}>

@@ -200,7 +200,15 @@ margin-bottom:16px;
 }
 @media(max-width:450px){
     .wrapper-cart{
-        width:350px;
+        width:320px;
+    }
+    .card-describtion{
+        width:100%;
     }
    
+}
+@media(max-width:400px){
+    .top-btn{
+       width:100%;
+    }
 }

@@ -9,7 +9,7 @@ import {
 
 const client = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.uno.kg/graphql/', 
+    uri: 'https://api.tanda.kg/graphql/', 
     headers: {
       Authorization: `Bearer YOUR_TOKEN` 
     }
